@@ -232,7 +232,7 @@ blockquote {
     font-weight: 400;
 }
 
-.main-title span {
+.heading-00 {
     font-size: 4rem;
     font-weight: 600;
 }
@@ -1861,4 +1861,25 @@ footer p {
         height: 120%;
     }
     
+}
+
+
+
+.heading-01 {
+    font-size: 4rem;
+    line-height: 4rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.between-content-line {
+    margin: 100px 0;
+}
+
+
+.rotateme{
+    font-size: x-large;
+    font-weight: 100;
+    color: rgb(156, 156, 156);
+    font-size: 2.0rem;
 }

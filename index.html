@@ -14,6 +14,7 @@
 <!-- CSS
 ================================================== -->
 <link rel="stylesheet" href="css/bootstrap.min.css"/>
+<link rel="stylesheet" href="css/animate.css">
 <link rel="stylesheet" href="css/reset.css"/>
 <link rel="stylesheet" href="css/style.css"/>
 
@@ -23,7 +24,12 @@
 
 <!-- Google Fonts
 ================================================== -->
-<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700" rel="stylesheet">
+
+
+
+<!-- Ajax jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
 <body>
@@ -58,7 +64,7 @@
 		<ul class="page-menu">
 			<li><a class="active" href="index.html">Home</a></li>
 			<li><a href="about.html">About</a></li>
-			<li><a href="blogs.html">Works</a></li>
+			<li><a href="works.html">Works</a></li>
 			<li><a href="contact.html">Contact</a></li>
 			<li class="social">
                 <a href="#"><i class="fab fa-twitter"></i></a>
@@ -80,10 +86,22 @@
 ================================================== -->
 <section class="main">
 	<div class="main-content">
+
         <span class="hello">Hello Everyone!</span>
-		<h1 class="main-title"><span>I'm Saeed,</span> <br>
+		<h1 class="main-title"><span class="heading-00">I'm Saeed,</span><br>
              a professional
 		in Web Development,<br> Web Designing and Web App Development</h1>
+        <span class="rotateme">
+            &#8212; Web Developer &#8212;,
+            &#8212; Web Designer &#8212;,
+            &#8212; App Developer &#8212;,
+            &#8212; Graphic Designer &#8212;,
+            &#8212; Content Writer &#8212;,
+            &#8212; SEO Specialist &#8212;,
+            &#8212; WordPress Developer &#8212;,
+            &#8212; Shopify Developer &#8212;,
+            
+          </span> <br>
 		<div class="social">
             <a href="#"><i class="fab fa-twitter"></i></a>
             <a href="#"><i class="fab fa-instagram"></i></a>
@@ -102,184 +120,33 @@
     <div id="particles-js"></div>
 </section>
 
-<!-- PORTFOLIO CONTENT
-================================================== -->
+
 <section class="content bottom_90">
     <div class="container">
-        
-        <div class="vf">
-            <div class="zigzag">
-                <svg viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns="http://www.w3.org/2000/svg">
-                 <path d="M1.357,12.26 10.807,2.81 20.328,12.332
-                    29.781,2.879 39.223,12.321 48.754,2.79  58.286,12.321"/>
-                </svg>
+        <div class="row content-left">
+            <div class="col-md-6">
+                <h1 class="heading-01">Lorem ipsum dolor sit.</h1>
+                <p>Recusandae soluta dolorum natus ipsam. Quibusdam, voluptatibus excepturi earum vel rem iusto fugiat necessitatibus possimus, hic inventore fuga sit consequuntur praesentium laborum!</p>
             </div>
-            <p>View Filter</p>
+            <div class="col-md-6"></div>
         </div>
-        
-        <div class="portfolio_filter">
-            <ul>
-                <li><a class="select-cat" data-filter="*" href="#">All Works</a></li>
-                <li><a data-filter=".web-design" href="#">Web Design</a></li>
-                <li><a data-filter=".web-dev" href="#">Web Developments</a></li>
-                <li><a data-filter=".app-dev" href="#">App Developments</a></li>
-                <li><a data-filter=".graphics" href="#">Graphic Designs</a></li>
-            </ul>   
-        </div>
-            
-        <div class="isotope_items row">
-            <!-- Item -->
-            <a href="#" class="single_item graphics col-md-6">
-                <figure>
-                <img src="img/portfolio/gd01.jpg" alt="">
-                     <figcaption>
-                                <ul>
-                                    <li> <span>Graphic Design</span> </li>
-                                    <li><h3 class="title">ABC Company</h3></li>
-                                </ul>
-                    </figcaption>
-                </figure>
-            </a>
-            <!-- Item -->
-            <a href="#" class="single_item graphics col-md-6">
-                <figure>
-                    <img src="img/portfolio/gd02.jpg" alt="">
-                     <figcaption>
-                                <ul>
-                                    <li> <span>Graphic Design</span> </li>
-                                    <li><h3 class="title">CDE Enterprises</h3></li>
-                                </ul>
-                    </figcaption>
-                </figure>
-            </a>
-            <!-- Item -->
-            <a href="#" class="single_item graphics col-md-3">
-                <figure>
-                    <img src="img/portfolio/gd03.jpg" alt="">
-                     <figcaption>
-                                <ul>
-                                    <li> <span>Graphic Design</span> </li>
-                                    <li><h3 class="title">EFG Limited</h3></li>
-                                </ul>
-                    </figcaption>
-                </figure>
-            </a>
-            <!-- Item -->
-            <a href="#" class="single_item graphics col-md-3">
-                <figure>
-                    <img src="img/portfolio/gd04.jpg" alt="">
-                     <figcaption>
-                                <ul>
-                                    <li> <span>Graphic Design</span> </li>
-                                    <li><h3 class="title">Nixxie International</h3></li>
-                                </ul>
-                    </figcaption>
-                </figure>
-            </a>
-            <!-- Item -->
-            <a href="#" class="single_item app-dev col-md-6">
-                <figure>
-                <img src="img/portfolio/wad01.jpg" alt="">
-                     <figcaption>
-                                <ul>
-                                    <li> <span>App Development</span> </li>
-                                    <li><h3 class="title">XYZ Collections</h3></li>
-                                </ul>
-                    </figcaption>
-                </figure>
-            </a>
-            <!-- Item -->
-            <a href="#" class="single_item app-dev col-md-6">
-                <figure>
-                <img src="img/portfolio/wad02.jpg" alt="">
-                     <figcaption>
-                                <ul>
-                                    <li> <span>App Development</span> </li>
-                                    <li><h3 class="title">MNO Food Co.</h3></li>
-                                </ul>
-                    </figcaption>
-                </figure>
-            </a>
-
-            <a href="#" class="single_item app-dev col-md-6">
-                <figure>
-                <img src="img/portfolio/wad03.jpg" alt="">
-                     <figcaption>
-                                <ul>
-                                    <li> <span>App Development</span> </li>
-                                    <li><h3 class="title">123 Fashions</h3></li>
-                                </ul>
-                    </figcaption>
-                </figure>
-            </a>
-
-            <a href="#" class="single_item web-design col-md-6">
-                <figure>
-                <img src="img/portfolio/wd01.jpg" alt="">
-                     <figcaption>
-                                <ul>
-                                    <li> <span>Web Design</span> </li>
-                                    <li><h3 class="title">4you Company</h3></li>
-                                </ul>
-                    </figcaption>
-                </figure>
-            </a>
-
-            <a href="#" class="single_item web-design col-md-6">
-                <figure>
-                <img src="img/portfolio/wd02.jpg" alt="">
-                     <figcaption>
-                                <ul>
-                                    <li> <span>Web Design</span> </li>
-                                    <li><h3 class="title">Nitro Group</h3></li>
-                                </ul>
-                    </figcaption>
-                </figure>
-            </a>
-
-            <a href="#" class="single_item web-design col-md-6">
-                <figure>
-                <img src="img/portfolio/wd03.jpg" alt="">
-                     <figcaption>
-                                <ul>
-                                    <li> <span>Web Design</span> </li>
-                                    <li><h3 class="title">TSP Distributions</h3></li>
-                                </ul>
-                    </figcaption>
-                </figure>
-            </a>
-
-            <a href="#" class="single_item web-dev col-md-6">
-                <figure>
-                <img src="img/portfolio/wdd01.jpg" alt="">
-                     <figcaption>
-                                <ul>
-                                    <li> <span>Web Development</span> </li>
-                                    <li><h3 class="title">XYZ Holdings</h3></li>
-                                </ul>
-                    </figcaption>
-                </figure>
-            </a>
-
-            <a href="#" class="single_item web-dev col-md-6">
-                <figure>
-                <img src="img/portfolio/wdd01.jpg" alt="">
-                     <figcaption>
-                                <ul>
-                                    <li> <span>Web Development</span> </li>
-                                    <li><h3 class="title">HJK Properties</h3></li>
-                                </ul>
-                    </figcaption>
-                </figure>
-            </a>
+        <hr class="between-content-line">
+        <div class="row content-right">
+            <div class="col-md-6"></div>
+            <div class="col-md-6">
+                <h1 class="heading-01">Amet consectetur adipisicing elit.</h1>
+                <p>Recusandae soluta dolorum natus ipsam. Quibusdam, voluptatibus excepturi earum vel rem iusto fugiat necessitatibus possimus, hic inventore fuga sit consequuntur praesentium laborum!</p>
+            </div>
         </div>
     </div>
 </section>
 
+
+
 <!-- FOOTER
 ================================================== -->
 <footer>
-    <div class="container padding_90">
+    <div class="container padding_90  bottom_90">
         <div class="row">
             <div class="col-lg-9 col-md-9">
                 <div class="social">
@@ -302,10 +169,16 @@
     
 </div>
 
-
+<!-- Animate (Text-Rotate) -->
+<script type="text/javascript">
+    $(function() {
+      $('.rotateme').cycleText();
+    });
+  </script>
 
 <!-- Javascripts -->
 <script src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/jquery.cycleText.js"></script>
 <script src="js/isotope.pkgd.min.js"></script>
 <script src="js/packery-mode.pkgd.min.js"></script>  
 <script src="js/imagesloaded.pkgd.min.js"></script>      
