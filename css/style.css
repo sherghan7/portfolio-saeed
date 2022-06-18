@@ -1885,3 +1885,16 @@ footer p {
 }
 
 
+.heading-03 {
+margin-top: 25%;
+}
+
+.heading-03 h1 {
+    font-size: 5rem;
+    }
+
+    .heading-03 p {
+        font-size: 2rem;
+        line-height: 2rem;
+        margin-top: 20px;
+        }
